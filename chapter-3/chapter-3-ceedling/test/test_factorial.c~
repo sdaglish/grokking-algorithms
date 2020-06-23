@@ -1,0 +1,19 @@
+#include "unity.h"
+
+#include "factorial.h"
+
+void setUp(void)
+{
+}
+
+void tearDown(void)
+{
+}
+
+void test_when_given_value_of_0_then_module_returns_1(void)
+{
+  int x = 0;
+  int expected_value = 1;
+  int return_value = factorial(x);
+  TEST_ASSERT_EQUAL(expected_value, return_value);
+}

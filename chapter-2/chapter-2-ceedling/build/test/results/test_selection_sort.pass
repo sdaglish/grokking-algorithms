@@ -1,0 +1,30 @@
+---
+:source:
+  :path: test
+  :file: test_selection_sort.c
+:successes:
+- :test: test_when_array_size_is_zero_return_null_pointer
+  :line: 14
+  :message: ''
+  :unity_test_time: 0
+- :test: test_when_array_size_is_greater_than_zero_return_a_none_NULL_pointer
+  :line: 22
+  :message: ''
+  :unity_test_time: 0
+- :test: test_when_sent_an_ordered_list_module_will_return_list
+  :line: 30
+  :message: ''
+  :unity_test_time: 0
+- :test: test_when_sent_unsorted_list_the_new_array_will_contain_the_sorted_list
+  :line: 40
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 4
+  :passed: 4
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.0063688969994473155

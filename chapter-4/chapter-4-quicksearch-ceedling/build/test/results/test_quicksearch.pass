@@ -1,0 +1,46 @@
+---
+:source:
+  :path: test
+  :file: test_quicksearch.c
+:successes:
+- :test: test_base_case_1_when_array_is_empty_return_null_pointer
+  :line: 13
+  :message: ''
+  :unity_test_time: 0
+- :test: test_base_case_2_when_array_has_single_element_return_pointer_to_element
+  :line: 21
+  :message: ''
+  :unity_test_time: 0
+- :test: test_when_given_a_sorted_array_of_two_elements_the_same_array_is_returned
+  :line: 29
+  :message: ''
+  :unity_test_time: 0
+- :test: test_when_given_an_unsorted_array_of_two_elements_the_sorted_array_is_returned
+  :line: 37
+  :message: ''
+  :unity_test_time: 0
+- :test: test_when_given_array_of_3_sorted_items_function_returns_same_array
+  :line: 46
+  :message: ''
+  :unity_test_time: 0
+- :test: test_when_given_array_of_3_unsorted_items_function_returns_sorted_array
+  :line: 55
+  :message: ''
+  :unity_test_time: 0
+- :test: test_testing_array_from_book
+  :line: 64
+  :message: ''
+  :unity_test_time: 0
+- :test: test_testing_larger_array
+  :line: 74
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 8
+  :passed: 8
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.004527795999820228

@@ -1,0 +1,22 @@
+[
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/unity/src",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/cmock/src",
+            "-Ibuild/test/mocks",
+            "-Itest",
+            "-Itest/support",
+            "-Isrc",
+            "-DTEST",
+            "-DGNU_COMPILER",
+            "-g",
+            "-o",
+            "build/test/out/c/test_hashtable.o",
+            "test/test_hashtable.c"
+        ],
+        "directory": "/home/steven/Documents/grokking-algorithms/chapter-5/chapter-5-hashtable-ceedling",
+        "file": "test/test_hashtable.c"
+    }
+]

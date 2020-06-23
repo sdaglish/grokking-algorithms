@@ -1,0 +1,30 @@
+---
+:source:
+  :path: test
+  :file: test_sum.c
+:successes:
+- :test: test_when_given_an_empty_list_module_returns_0
+  :line: 13
+  :message: ''
+  :unity_test_time: 0
+- :test: test_when_given_a_list_with_single_item_return_correct_value
+  :line: 21
+  :message: ''
+  :unity_test_time: 0
+- :test: test_testing_larger_list
+  :line: 29
+  :message: ''
+  :unity_test_time: 0
+- :test: test_testing_very_large_list
+  :line: 37
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 4
+  :passed: 4
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.0051739820000875625

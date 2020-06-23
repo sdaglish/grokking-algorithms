@@ -1,0 +1,102 @@
+[
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/unity/src",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/cmock/src",
+            "-Ibuild/test/mocks",
+            "-Itest",
+            "-Itest/support",
+            "-Isrc",
+            "-DTEST",
+            "-DGNU_COMPILER",
+            "-g",
+            "-o",
+            "build/test/out/c/test_binary_search_runner.o",
+            "build/test/runners/test_binary_search_runner.c"
+        ],
+        "directory": "/home/steven/Documents/grokking-algorithms/chapter-1/chapter-1",
+        "file": "build/test/runners/test_binary_search_runner.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/unity/src",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/cmock/src",
+            "-Ibuild/test/mocks",
+            "-Itest",
+            "-Itest/support",
+            "-Isrc",
+            "-DTEST",
+            "-DGNU_COMPILER",
+            "-g",
+            "-o",
+            "build/test/out/c/test_binary_search.o",
+            "test/test_binary_search.c"
+        ],
+        "directory": "/home/steven/Documents/grokking-algorithms/chapter-1/chapter-1",
+        "file": "test/test_binary_search.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/unity/src",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/cmock/src",
+            "-Ibuild/test/mocks",
+            "-Itest",
+            "-Itest/support",
+            "-Isrc",
+            "-DTEST",
+            "-DGNU_COMPILER",
+            "-g",
+            "-o",
+            "build/test/out/c/cmock.o",
+            "../../../../.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/cmock/src/cmock.c"
+        ],
+        "directory": "/home/steven/Documents/grokking-algorithms/chapter-1/chapter-1",
+        "file": "../../../../.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/cmock/src/cmock.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/unity/src",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/cmock/src",
+            "-Ibuild/test/mocks",
+            "-Itest",
+            "-Itest/support",
+            "-Isrc",
+            "-DTEST",
+            "-DGNU_COMPILER",
+            "-g",
+            "-o",
+            "build/test/out/c/binary_search.o",
+            "src/binary_search.c"
+        ],
+        "directory": "/home/steven/Documents/grokking-algorithms/chapter-1/chapter-1",
+        "file": "src/binary_search.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/unity/src",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/cmock/src",
+            "-Ibuild/test/mocks",
+            "-Itest",
+            "-Itest/support",
+            "-Isrc",
+            "-DTEST",
+            "-DGNU_COMPILER",
+            "-g",
+            "-o",
+            "build/test/out/c/unity.o",
+            "../../../../.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/unity/src/unity.c"
+        ],
+        "directory": "/home/steven/Documents/grokking-algorithms/chapter-1/chapter-1",
+        "file": "../../../../.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/unity/src/unity.c"
+    }
+]

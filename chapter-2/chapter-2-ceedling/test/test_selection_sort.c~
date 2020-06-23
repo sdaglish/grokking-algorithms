@@ -1,0 +1,27 @@
+#include "unity.h"
+
+#include "selection_sort.h"
+
+void setUp(void)
+{
+}
+
+void tearDown(void)
+{
+}
+
+void test_when_array_size_is_zero_return_null_pointer(void)
+{
+  int list[] = {5, 3, 6, 2, 10};
+  int list_size = 0;
+  int* sorted_list = selection_sort(list, list_size);
+  TEST_ASSERT_NULL(sorted_list);
+}
+
+void test_when_array_size_is_greater_than_zero_return_a_none_NULL_pointer(void)
+{
+  int list[] = {5, 3, 6, 2, 10};
+  int list_size = 5;
+  int* sorted_list = selection_sort(list, list_size);
+  TEST_ASSERT_NOT_NULL(sorted_list);
+}

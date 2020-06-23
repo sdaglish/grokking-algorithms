@@ -1,0 +1,13 @@
+#include "selection_sort.h"
+#include <stdlib.h>
+
+int* selection_sort(int list[], int list_size)
+{
+  if (list_size == 0)
+    {
+      return 0;    // NULL
+    }
+
+  int* sorted_list = malloc(sizeof(int)*list_size);
+  return sorted_list;
+}

@@ -1,0 +1,102 @@
+[
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/unity/src",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/cmock/src",
+            "-Ibuild/test/mocks",
+            "-Itest",
+            "-Itest/support",
+            "-Isrc",
+            "-DTEST",
+            "-DGNU_COMPILER",
+            "-g",
+            "-o",
+            "build/test/out/c/unity.o",
+            "../../../../.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/unity/src/unity.c"
+        ],
+        "directory": "/home/steven/Documents/grokking-algorithms/chapter-2/chapter-2-ceedling",
+        "file": "../../../../.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/unity/src/unity.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/unity/src",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/cmock/src",
+            "-Ibuild/test/mocks",
+            "-Itest",
+            "-Itest/support",
+            "-Isrc",
+            "-DTEST",
+            "-DGNU_COMPILER",
+            "-g",
+            "-o",
+            "build/test/out/c/test_find-smallest_runner.o",
+            "build/test/runners/test_find-smallest_runner.c"
+        ],
+        "directory": "/home/steven/Documents/grokking-algorithms/chapter-2/chapter-2-ceedling",
+        "file": "build/test/runners/test_find-smallest_runner.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/unity/src",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/cmock/src",
+            "-Ibuild/test/mocks",
+            "-Itest",
+            "-Itest/support",
+            "-Isrc",
+            "-DTEST",
+            "-DGNU_COMPILER",
+            "-g",
+            "-o",
+            "build/test/out/c/find-smallest.o",
+            "src/find-smallest.c"
+        ],
+        "directory": "/home/steven/Documents/grokking-algorithms/chapter-2/chapter-2-ceedling",
+        "file": "src/find-smallest.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/unity/src",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/cmock/src",
+            "-Ibuild/test/mocks",
+            "-Itest",
+            "-Itest/support",
+            "-Isrc",
+            "-DTEST",
+            "-DGNU_COMPILER",
+            "-g",
+            "-o",
+            "build/test/out/c/cmock.o",
+            "../../../../.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/cmock/src/cmock.c"
+        ],
+        "directory": "/home/steven/Documents/grokking-algorithms/chapter-2/chapter-2-ceedling",
+        "file": "../../../../.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/cmock/src/cmock.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/unity/src",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/cmock/src",
+            "-Ibuild/test/mocks",
+            "-Itest",
+            "-Itest/support",
+            "-Isrc",
+            "-DTEST",
+            "-DGNU_COMPILER",
+            "-g",
+            "-o",
+            "build/test/out/c/test_find-smallest.o",
+            "test/test_find-smallest.c"
+        ],
+        "directory": "/home/steven/Documents/grokking-algorithms/chapter-2/chapter-2-ceedling",
+        "file": "test/test_find-smallest.c"
+    }
+]

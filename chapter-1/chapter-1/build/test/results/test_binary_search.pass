@@ -1,0 +1,30 @@
+---
+:source:
+  :path: test
+  :file: test_binary_search.c
+:successes:
+- :test: test_return_minus_1_when_item_not_in_list
+  :line: 16
+  :message: ''
+  :unity_test_time: 0
+- :test: test_return_none_minus_1_when_item_is_in_the_list
+  :line: 25
+  :message: ''
+  :unity_test_time: 0
+- :test: test_return_index_if_item_is_in_list
+  :line: 34
+  :message: ''
+  :unity_test_time: 0
+- :test: test_tests_from_page_9
+  :line: 43
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 4
+  :passed: 4
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.005068312000048536

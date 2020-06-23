@@ -1,0 +1,102 @@
+[
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/unity/src",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/cmock/src",
+            "-Ibuild/test/mocks",
+            "-Itest",
+            "-Itest/support",
+            "-Isrc",
+            "-DTEST",
+            "-DGNU_COMPILER",
+            "-g",
+            "-o",
+            "build/test/out/c/unity.o",
+            "../../../../.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/unity/src/unity.c"
+        ],
+        "directory": "/home/steven/Documents/grokking-algorithms/chapter-3/chapter-3-ceedling",
+        "file": "../../../../.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/unity/src/unity.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/unity/src",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/cmock/src",
+            "-Ibuild/test/mocks",
+            "-Itest",
+            "-Itest/support",
+            "-Isrc",
+            "-DTEST",
+            "-DGNU_COMPILER",
+            "-g",
+            "-o",
+            "build/test/out/c/cmock.o",
+            "../../../../.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/cmock/src/cmock.c"
+        ],
+        "directory": "/home/steven/Documents/grokking-algorithms/chapter-3/chapter-3-ceedling",
+        "file": "../../../../.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/cmock/src/cmock.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/unity/src",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/cmock/src",
+            "-Ibuild/test/mocks",
+            "-Itest",
+            "-Itest/support",
+            "-Isrc",
+            "-DTEST",
+            "-DGNU_COMPILER",
+            "-g",
+            "-o",
+            "build/test/out/c/factorial.o",
+            "src/factorial.c"
+        ],
+        "directory": "/home/steven/Documents/grokking-algorithms/chapter-3/chapter-3-ceedling",
+        "file": "src/factorial.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/unity/src",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/cmock/src",
+            "-Ibuild/test/mocks",
+            "-Itest",
+            "-Itest/support",
+            "-Isrc",
+            "-DTEST",
+            "-DGNU_COMPILER",
+            "-g",
+            "-o",
+            "build/test/out/c/test_factorial_runner.o",
+            "build/test/runners/test_factorial_runner.c"
+        ],
+        "directory": "/home/steven/Documents/grokking-algorithms/chapter-3/chapter-3-ceedling",
+        "file": "build/test/runners/test_factorial_runner.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/unity/src",
+            "-I/home/steven/.gem/ruby/2.7.0/gems/ceedling-0.30.0/vendor/cmock/src",
+            "-Ibuild/test/mocks",
+            "-Itest",
+            "-Itest/support",
+            "-Isrc",
+            "-DTEST",
+            "-DGNU_COMPILER",
+            "-g",
+            "-o",
+            "build/test/out/c/test_factorial.o",
+            "test/test_factorial.c"
+        ],
+        "directory": "/home/steven/Documents/grokking-algorithms/chapter-3/chapter-3-ceedling",
+        "file": "test/test_factorial.c"
+    }
+]
